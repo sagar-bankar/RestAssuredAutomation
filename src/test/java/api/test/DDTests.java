@@ -15,7 +15,7 @@ public class DDTests {
 	//@Test(priority = 1, dataProvider = "datafor_UserModule", dataProviderClass = DataProviders.class)
 	void testPostUser(String userID, String username, String Fname, String Lname, String email, String pwd, String ph) {
 
-		User userPayload = new User();
+		User userPayload = new User(); 
 		Faker faker = new Faker();
 
 		userPayload.setId((int) Double.parseDouble(userID));
