@@ -36,7 +36,7 @@ public class UserTests2 {
 		
 	}
 
-	@Test(priority = 1)
+	//@Test(priority = 1)
 	void testPostUser() {
 		logger.info("*********Creating User***************");
 		Response response = UserEndPoints2.createUser(userPayload);
@@ -45,7 +45,7 @@ public class UserTests2 {
 		Assert.assertEquals(response.getStatusCode(), 200);
 	}
 
-	@Test(priority = 2)
+	//@Test(priority = 2)
 	public void testGetUserByName() {
 		logger.info("*********User get***************");
 		
@@ -55,7 +55,7 @@ public class UserTests2 {
 		Assert.assertEquals(response.getStatusCode(), 200);
 	}
 
-	@Test(priority = 3)
+	//@Test(priority = 3)
 	public void testUpdateUserByName() {
 		logger.info("*********Upadte User***************");
 		
@@ -76,7 +76,7 @@ public class UserTests2 {
 
 	}
 
-	@Test(priority = 4)
+	//@Test(priority = 4)
 	public void testDeleteUserByName() {
 		logger.info("*********Deleting User***************");
 		

@@ -168,3 +168,11 @@
 11:17:47.963 [main] INFO  api.test.UserTests - *********User get***************
 11:17:50.150 [main] INFO  api.test.UserTests - *********Upadte User***************
 11:17:54.556 [main] INFO  api.test.UserTests - *********Deleting User***************
+20:44:33.933 [main] INFO  api.test.UserTests - *********Creating User*****************
+20:44:45.018 [main] INFO  api.test.UserTests - *********User get***************
+20:44:47.288 [main] INFO  api.test.UserTests - *********Upadte User***************
+20:44:51.703 [main] INFO  api.test.UserTests - *********Deleting User***************
+20:58:31.741 [main] INFO  api.test.UserTests - *********Creating User*****************
+20:58:41.669 [main] INFO  api.test.UserTests - *********User get***************
+20:58:44.195 [main] INFO  api.test.UserTests - *********Upadte User***************
+20:58:48.668 [main] INFO  api.test.UserTests - *********Deleting User***************
