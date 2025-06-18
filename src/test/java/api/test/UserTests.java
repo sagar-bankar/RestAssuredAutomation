@@ -37,7 +37,7 @@ public class UserTests {
 
 	@Test(priority = 1)
 	void testPostUser() {
-		logger.info("*********Creating User***************");
+		logger.info("*********Creating User*****************");
 		Response response = UserEndPoints.createUser(userPayload);
 		response.then().log().all();
 
