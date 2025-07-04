@@ -27,7 +27,4 @@ A powerful API automation testing framework using **Rest Assured**, **TestNG**, 
 - **Report Tool**: ExtentReports or Allure  
 - **IDE**: Eclipse  
 
----
-
-## 📁 Project Structure
 
