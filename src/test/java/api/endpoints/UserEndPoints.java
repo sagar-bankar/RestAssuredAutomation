@@ -1,15 +1,11 @@
 package api.endpoints;
-import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
-
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
+import static io.restassured.RestAssured.given;
 
 import api.payload.User;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
 
-//UserEndPoints.java---->created for perform CRUD operations 
+//StoreEndPoints.java---->created for perform CRUD operations 
 
 public class UserEndPoints {
 	
